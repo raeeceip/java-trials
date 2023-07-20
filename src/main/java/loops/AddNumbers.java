@@ -9,14 +9,14 @@ public class AddNumbers {
 
 
         do{
-            System.out.printnln("Enter the first number: ");
+            System.out.println("Enter the first number: ");
             double num1 = scanner.nextDouble();
-            System.out.printnln("Enter the second number: ");
+            System.out.println("Enter the second number: ");
             double num2 = scanner.nextDouble();
 
             double sum = num1 + num2;
             System.out.println("The sum is: " + sum);
-
+            again = scanner.nextBoolean();
         } while(again);
     }
 
